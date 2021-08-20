@@ -100,29 +100,3 @@
 ;;
 ;;  (same with currency, unit, etc.)
 
-;; Example of effectful code comments:
-;;
-;; "//!" denotes an effectful comment, if can be followed by a letter
-;; that maps to a class of comments.  the mapping is modified by //%
-;; directive comments:
-;;
-;; //% I := log,level=0
-;; //% W := log,level=1
-;; 
-;; Then, logging can be done with
-;;
-;; //I we are here (value=$value) 
-;; //I 
-
-;;   if (some_condition) {
-;;      
-;;      
-;;   } else {
-;;      //! this should not happen
-;;   }
-
-
-;; CODE COMMENTS
-;;
-;; knowing a function, list all comments
-;; 
